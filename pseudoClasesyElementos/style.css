@@ -1,0 +1,35 @@
+
+.main-nav {
+    margin-top: 10px;
+    list-style: none;
+    padding-left: 0px;
+    background-color: #14A4A6;
+
+}
+/* Aquí podemos llamarlo por elemento: */
+/* .main-nav li {
+    display: inline-block;
+} */
+/* Ó usar clases refirindonos a li */
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a{
+    color: #ffff;
+    padding: 10px;  
+    text-decoration: none;
+    font-size: 19px;
+}
+.main-nav__item a:hover{
+    color: red;
+}
+.main-nav__item a:active{
+    color: blue;
+}
+.main-nav__item a::after{
+    content: " | ";
+}
+.main-sec p::first-line{
+    font-size: 30px;
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+html{
+    font-size: 150%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    /* valores iniciales */
+    font-size: initial;
+    font-family: initial;
+}
+h1{
+    /* heredando de html*/
+    font-size: inherit;
+    font-family: inherit;
+}
