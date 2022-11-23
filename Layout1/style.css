@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    position: relative;
+    height: 50px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+.navbar ul{
+    position: absolute;
+    right: 0;
+    top: 0;
+    display: inline-block;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 10px;
+    color: aliceblue;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar{
+    display: inline-block;
+    position: relative;
+    width: 200px;
+    height: 100vh;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: papayawhip;
+    color: white;
+}
+.anuncio{
+    margin-bottom: 10px;
+    width: 150px;
+    height:150px;
+    border-radius: 25px;
+    background-color: skyblue;
+}
+.main{
+    display: inline-block;
+    background-color: #f1f1f1;
+    color: white;
+}
+.texto{
+    color: blueviolet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
