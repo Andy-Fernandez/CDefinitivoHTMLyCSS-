@@ -28,7 +28,6 @@
 }
 .sidebar{
     display: inline-block;
-    position: relative;
     width: 200px;
     height: 100vh;
     padding-left: 25px;
@@ -44,15 +43,7 @@
     border-radius: 25px;
     background-color: skyblue;
 }
-.main{
-    display: inline-block;
-    background-color: #f1f1f1;
-    color: white;
-}
 .texto{
-    color: blueviolet;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    display: inline-block;
     transform: translate(-50%, -50%);
 }
