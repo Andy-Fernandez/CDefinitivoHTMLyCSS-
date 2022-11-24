@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Cada seccion corresponde a las propiedades, ya sea de los conetenedores o de los hijos. */
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cada contenedor es un ejemplo de las variaciones de una propiedad. */
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #724A8C;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+    height: 400px;
+}
+
+/* Propiedades generales de cada caja: */
+.box{
+    color: white;
+    width: 100px;
+    min-height: 100px;
+    background-color: #F7951E;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/* Tenemos 3 tipos de cajas, cuadrada, rectangular horizontal y vertical. */
+.box_1{
+    width: 100px;
+    min-height: 100px;
+}
+.box_2{
+    width: 200px;
+    min-height: 100px;
+}
+.box_3{
+    width: 100px;
+    min-height: 200px;
+}
+
+/* Por defecto si usamos flex wrap y flex direction o equivalentemento flex flow los items trataran de ocupar todo el alto del */
+.flex-start{
+    align-content: flex-start;
+}
+.flex-end{
+    align-content: flex-end;
+}
+.center{
+    align-content: center;
+}
+.stretch{
+    align-content: stretch;
+}
+.space-between{
+    align-content: space-between;
+}
+.space-around{
+    align-content: space-around;
+}
+.space-evenly{
+    align-content: space-evenly;
+}
