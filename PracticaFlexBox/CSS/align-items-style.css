@@ -7,7 +7,6 @@
 /* Cada contenedor es un ejemplo de las variaciones de una propiedad. */
 .container{
     display: flex;
-    flex-direction: row;
     background-color: #724A8C;
     padding: 15px;
     margin: 10px;
@@ -36,7 +35,10 @@
     width: 100px;
     min-height: 200px;
 }
-.flex-start{
+
+/* Si nuestros items usan min-height entonces por defecto display flex hara que tomen el alto total del contenedor*/
+
+.text-start{
     align-items: flex-start;
 }
 .flex-end{
@@ -45,8 +47,17 @@
 .center{
     align-items: center;
 }
+
+/* Es importante poner un min-height para que stretch funcione, si el item tiene height a secas no será eficaz stretch */
 .stretch{
     align-items: stretch;
+}
+
+/* Para baseline los items del contenedor se alinean al alineado que le pongamos a los items */
+.baseline .box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .baseline{
     align-items: baseline;
