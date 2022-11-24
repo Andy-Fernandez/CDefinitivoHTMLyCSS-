@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Cada seccion corresponde a las propiedades, ya sea de los conetenedores o de los hijos. */
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Cada contenedor es un ejemplo de las variaciones de una propiedad. */
+.container{
+    display: flex;
+    flex-direction: row;
+    background-color: #724A8C;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/* Propiedades generales de cada caja: */
+.box{
+    color: white;
+    width: 100px;
+    height: 100px;
+    background-color: #F7951E;
+    border-radius: 5px;
+    margin: 5px;
+    border: 1px solid black;
+}
+
+/* Tenemos 3 tipos de cajas, cuadrada, rectangular horizontal y vertical. */
+.box_1{
+    width: 100px;
+    height: 100px;
+}
+.box_2{
+    width: 200px;
+    height: 100px;
+}
+.box_3{
+    width: 100px;
+    height: 200px;
+}
+
+.nowap{
+    /* flex-wrap: nowrap; */
+    flex-flow: nowrap;
+}
+.wrap{
+    /* flex-wrap: wrap; */
+    flex-flow: wrap;
+}
+.wrap-reverse{
+    /* flex-wrap: wrap-reverse; */
+    flex-flow: wrap-reverse;
+}
