@@ -45,7 +45,7 @@
     min-height: 200px;
 }
 
-/* Por defecto si usamos flex wrap y flex direction o equivalentemento flex flow los items trataran de ocupar todo el alto del */
+/* Por defecto si usamos flex wrap y flex direction o equivalentemento flex flow los items trataran de ocupar todo el alto del contenedor*/
 .flex-start{
     align-content: flex-start;
 }
