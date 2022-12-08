@@ -1,8 +1,9 @@
 *{
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
+
 /* Cada seccion corresponde a las propiedades, ya sea de los conetenedores o de los hijos. */
 .section{
     display: flex;
@@ -56,33 +57,17 @@ div a{
 .start{
     justify-content: space-evenly;
 }
-/* Hacemos invisible una caja */
-.start .box:nth-child(2){
-    background-color: #724A8C;
-    border: none;
-}
-.start{
-    position: fixed;
-    top: 0;
-}
-/* .start .box:nth-child(1){
-    background-color: #724A8C;
-    border: none;
-}.start .box:nth-child(3){
-    top: auto;
-} */
-/* .second{
-    position: sticky;
-    top: 0;
-} */
-.second .box:nth-child(2){
-    position: sticky;
-    top: 0px;
-}
-/* .second .box:nth-child(1){
-    position: absolute;
 
+/* General Siblings */
+.general .box_2 ~ .box_1{
+    background-color: #F7C91E;
 }
-.box:nth-child(3){
-    position: absolute;
-} */
+
+/* Child Selector */
+.child > .box_3{
+    background-color: #F7C91E;
+}
+
+.container .box_1:only-child{
+    background-color: #F7C91E;
+}
