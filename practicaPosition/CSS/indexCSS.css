@@ -1,0 +1,31 @@
+/* Hacemos invisible una caja */
+.start .box:nth-child(2){
+    background-color: #724A8C;
+    border: none;
+}
+
+
+/* .second .box_1{
+    position: sticky;
+    top: 10 px;
+} */
+
+/* Stiky en el segundo contenedor */
+.start{
+    position: sticky;
+    top: 10px;
+}
+
+
+/* .second .box:nth-child(2){
+    position: sticky;
+    top: 0px;
+} */
+
+/* .second .box:nth-child(1){
+    position: absolute;
+
+}
+.box:nth-child(3){
+    position: absolute;
+} */
