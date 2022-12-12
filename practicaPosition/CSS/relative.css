@@ -1,0 +1,32 @@
+.container{
+    margin: 110px;
+}
+
+.one, .three{
+    position: relative;
+    top: -70px;
+}
+.two, .four{
+    position: relative;
+    top: 70px;
+}
+.first{
+    display: flex;
+    justify-content: center;
+}
+.second{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    height: 140px;
+    width: 850px;
+    top: 520px;
+    left: 50%;
+    margin-left: 0;
+    margin-right: 0;
+    transform: translate(-50%,0%)
+}
+.third{
+    display: flex;
+    justify-content: flex-start;
+}

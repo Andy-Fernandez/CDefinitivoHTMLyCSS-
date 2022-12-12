@@ -33,7 +33,8 @@ div{
 }
 /* Both div are overlapping*/
 
-/* Its so important  */
+/* Its so important in this case use
+height: 100vh; for contains all  */
 .container.rel{
     height: 100vh;
     width: 100%;
