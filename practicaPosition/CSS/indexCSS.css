@@ -1,31 +1,59 @@
+/* First div: */
 /* Hacemos invisible una caja */
 .start .box:nth-child(2){
     background-color: #724A8C;
     border: none;
 }
-
-
-/* .second .box_1{
-    position: sticky;
-    top: 10 px;
-} */
-
-/* Stiky en el segundo contenedor */
-.start{
+.start .box:nth-child(1){
+    position: fixed;
+    left: 20vw;
+}
+.start .box:nth-child(3){
+    position: fixed;
+    right: 20vw;
+}
+/* Stiky en el primer contenedor */
+/* .start{
     position: sticky;
     top: 10px;
+} */
+
+
+/* Second div: */
+.second{
+    height: 50vh;
 }
-
-
-/* .second .box:nth-child(2){
+.second .box:nth-child(1){
+    position: absolute;
+    right: 5px;
+    top: 182.5px;
+}
+.second .box:nth-child(3){
+    position: absolute;
+    left: 5px;
+    top: 182.5px;
+}
+.second .box:nth-child(2){
     position: sticky;
-    top: 0px;
-} */
-
-/* .second .box:nth-child(1){
-    position: absolute;
-
+    top: 57.5px;
 }
-.box:nth-child(3){
-    position: absolute;
-} */
+
+/* Third  div */
+.third{
+    justify-content: center;
+}
+.third .box:nth-child(1){
+    position: relative;
+    left: 60.5px;
+    bottom: -20px;
+    z-index: 1;
+}
+.third .box:nth-child(2){
+    position: relative;
+    top: -20px;
+}
+.third .box:nth-child(3){
+    position: relative;
+    right: 60.5px;
+    bottom: -20px;
+}
