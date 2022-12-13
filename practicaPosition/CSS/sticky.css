@@ -1,0 +1,22 @@
+section{
+    display: flex;
+    flex-direction: column ;
+    justify-content: center;
+    background-color: grey;
+}
+div{
+    position: relative;
+    margin: 0 auto;
+    background: salmon;
+}
+.cantainer_esp{
+    position: relative;
+    display: inline-block;
+    width: 25vw;
+    height: 25vh;
+    padding: 30px;
+}
+.container{
+    position: sticky;
+    top: 0;
+}
