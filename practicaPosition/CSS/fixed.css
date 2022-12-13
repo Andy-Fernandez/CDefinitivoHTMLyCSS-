@@ -1,0 +1,21 @@
+/* I put this box on the center with position fixed */
+.rev_1{
+    position: fixed;
+    background: black;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+/*  */
+section .container:nth-child(3){
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+.container:nth-child(3) .box:nth-child(1){
+    position: fixed;
+    z-index: 2;
+}
