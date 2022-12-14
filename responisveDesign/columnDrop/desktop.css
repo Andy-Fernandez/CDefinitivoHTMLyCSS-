@@ -1,0 +1,14 @@
+@media (min-width: 800px){
+    .c1{
+        width: 20%;
+    }
+    .c2{
+        width: 30%;
+    }
+    .c3{
+        width: 50%;
+    }
+    .c5{
+        height: 300px;
+    }
+}
